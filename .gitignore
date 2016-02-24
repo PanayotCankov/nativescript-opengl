@@ -3,3 +3,5 @@
 platforms/
 node_modules/
 hooks/
+
+!OpenGLExample/node_modules/nativescript-opengl

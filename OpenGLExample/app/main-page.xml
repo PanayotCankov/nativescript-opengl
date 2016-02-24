@@ -1,5 +1,5 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:gl="nativescript-opengl" loaded="loaded">
   <GridLayout>
-    <Label text="Hello World!" />
+    <gl:OpenGLView width="100" height="100" backgroundColor="red" />
   </GridLayout>
 </Page>

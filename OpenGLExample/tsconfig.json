@@ -6,8 +6,11 @@
         "experimentalDecorators": true,
         "noEmitHelpers": true
     },
-    "exclude": [
-        "node_modules",
-        "platforms"
+    "files": [
+        "app/app.ts",
+        "app/main-page.ts",
+        "node_modules/nativescript-opengl/index.android.ts",
+        
+        "references.d.ts"
     ]
 }

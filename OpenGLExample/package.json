@@ -6,7 +6,8 @@
 		}
 	},
 	"dependencies": {
-		"tns-core-modules": "1.6.2"
+		"tns-core-modules": "1.6.2",
+		"nativescript-opengl": "*"
 	},
 	"devDependencies": {
 		"nativescript-dev-typescript": "^0.3.1",
