@@ -18,8 +18,9 @@
     e.light0.enabled = GL_TRUE;
     e.light0.diffuseColor = GLKVector4Make(1.0f, 0.4f, 0.4f, 1.0f);
 
+    // 0.5f is "frame.size.width / frame.size.height"
     GLKMatrix4 projectionMatrix = GLKMatrix4MakePerspective
-    (GLKMathDegreesToRadians(50.0f), 200/400, 0.1f, 100.0f);
+    (GLKMathDegreesToRadians(50.0f), 0.5f, 0.1f, 100.0f);
     e.transform.projectionMatrix = projectionMatrix;
 
     GLKMatrix4 modelMatrix =
