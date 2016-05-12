@@ -1,0 +1,12 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+    navigatingTo="onNavigatingTo"
+    xmlns:gl="glview">
+  <Page.actionBar>
+    <ActionBar title="Title here!">
+    </ActionBar>
+  </Page.actionBar>
+  <GridLayout>
+    <gl:GLView />
+    <Label text="Head Up Display!" horizontalAlignment="center" verticalAlignment="center" color="red" />
+  </GridLayout>
+</Page>
